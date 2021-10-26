@@ -1,0 +1,27 @@
+{
+  "name": "markdown-previewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choeuna/markdown-previewer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/choeuna/markdown-previewer/issues"
+  },
+  "homepage": "https://github.com/choeuna/markdown-previewer#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.8"
+  }
+}
