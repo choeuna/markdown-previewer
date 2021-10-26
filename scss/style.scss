@@ -10,7 +10,6 @@ $shadow: 1px 1px 10px 1px;
 
 
 * {
-  // border: 1px dotted black;
   box-sizing: border-box;
 }
 
@@ -21,13 +20,14 @@ body {
 }
 
 #wrapper {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
 }
 
 #editorWrapper {
   min-width: 450px;
   width: 45vw;
+  min-height: 170px;
   margin: 15px auto 15px auto;
   background-color: $light;
   border: 1px solid $border;
@@ -37,7 +37,7 @@ body {
 #previewerWrapper {
   min-width: 550px;
   width: 60vw;
-  min-height: 500px;
+  min-height: 500px; 
   margin: 15px auto 15px auto;
   background-color: $light;
   border: 1px solid $border;
@@ -77,6 +77,7 @@ body {
 
 // markdown display
 #preview {
+  min-height: 200px;
   height: 100%;
   width: 100%;
   padding: 0px 15px;
@@ -106,8 +107,8 @@ body {
 }
 
 .maximize {
-  height: 100%;
-  #editorText {
-    height: 100%;
+  min-height: 100vh;
+  #editor {
+    min-height: 95vh;
   }
 }
